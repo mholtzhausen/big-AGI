@@ -8,23 +8,23 @@
  */
 export const Brand = {
   Title: {
-    Base: 'big-AGI',
-    Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'big-AGI',
+    Base: 'BiG',
+    Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'BiG',
   },
   Meta: {
-    Description: 'Launch big-AGI to unlock the full potential of AI, with precise control over your data and models. Voice interface, AI personas, advanced features, and fun UX.',
-    SiteName: 'big-AGI | Precision AI for You',
+    Description: 'Launch BiG to unlock the full potential of AI, with precise control over your data and models. Voice interface, AI personas, advanced features, and fun UX.',
+    SiteName: 'BiG | Precision AI for You',
     ThemeColor: '#32383E',
     TwitterSite: '@enricoros',
   },
   URIs: {
-    Home: 'https://big-agi.com',
-    // App: 'https://get.big-agi.com',
-    CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
-    OpenRepo: 'https://github.com/enricoros/big-agi',
+    Home: 'https://big.holtzhausen.space',
+    // App: 'https://get.big.holtzhausen.space',
+    CardImage: 'https://big.holtzhausen.space/icons/card-dark-1200.png',
+    OpenRepo: 'https://github.com/enricoros/BiG',
     OpenProject: 'https://github.com/users/enricoros/projects/4',
     SupportInvite: 'https://discord.gg/MkH4qj2Jp9',
     // Twitter: 'https://www.twitter.com/enricoros',
-    PrivacyPolicy: 'https://big-agi.com/privacy',
+    PrivacyPolicy: 'https://big.holtzhausen.space/privacy',
   },
 } as const;
